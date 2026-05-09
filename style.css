@@ -52,6 +52,53 @@ body
     margin-left: 100px;
     font-size: 30px;
 }
+.first
+{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 70%;
+    padding: 30px;
+    background-color: #252C2C;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin: auto;
+
+}
+.sec3
+{
+    margin-top: 200px;
+}
+.boxs
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.boxic
+{
+    background-color: #252C2C;
+    border: 1px solid white;
+    border-radius: 15px;
+    padding: 30px;
+}
+.htext2
+{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+}
+.third
+{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+
+
 
 
 
@@ -96,5 +143,22 @@ body
     .innerimg
     {
         margin-top: 0;
+    }
+    .first
+    {
+        display: none;
+    }
+    .sec3
+    {
+        margin-top: 500px;
+    }
+    .boxs
+    {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .htext2
+    {
+        font-size: 30px;
     }
 }
