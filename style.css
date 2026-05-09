@@ -3,3 +3,64 @@
     margin: 0;
     font-family: sans-serif;
 }
+body
+{
+    background-color: rgba(0, 0, 0, 0.94);
+    color: white;
+}
+.tank
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.tank1
+{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+
+}
+.divimgs
+{
+    display: none;
+}
+.header
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0;
+}
+
+
+
+@media (max-width: 510px){
+    .tank1
+    {
+        display: none;
+    }
+    .divimgs
+    {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .header
+    {
+        width: 100%;
+    }
+    .imgs
+    {
+        width: 40px;
+        height: 40px;
+    }
+    .htext
+    {
+        font-size: 20px;
+    }
+    .ptext
+    {
+        display: none;
+    }
+}
